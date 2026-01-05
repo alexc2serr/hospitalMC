@@ -1,0 +1,612 @@
+[10:49:49] [Server thread/INFO]: Starting minecraft server version 1.12.1
+[10:49:49] [Server thread/INFO]: Loading properties
+[10:49:49] [Server thread/INFO]: Default game type: SURVIVAL
+[10:49:49] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-da42974-8f47214 (MC: 1.12.1) (Implementing API version 1.12.1-R0.1-SNAPSHOT)
+[10:49:49] [Server thread/INFO]: Debug logging is disabled
+[10:49:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:49:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[10:49:49] [Server thread/INFO]: Generating keypair
+[10:49:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:49:49] [Server thread/INFO]: Using default channel type
+[10:49:49] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[10:49:49] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[10:49:49] [Server thread/INFO]: [Images] Loading Images v2.5.8
+[10:49:49] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.12.1
+[10:49:49] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[10:49:49] [Server thread/INFO]: Preparing level "world"
+[10:49:49] [Server thread/INFO]: -------- World Settings For [world] --------
+[10:49:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:49:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:49:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:49:49] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[10:49:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:49:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:49:49] [Server thread/INFO]: Random Lighting Updates: false
+[10:49:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:49:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:49:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:49:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:49:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:49:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:49:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:49:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:49:49] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:49:49] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:49:49] [Server thread/INFO]: Structure Info Saving: true
+[10:49:49] [Server thread/INFO]: Mob Spawn Range: 4
+[10:49:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[10:49:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[10:49:49] [Server thread/INFO]: Max TNT Explosions: 100
+[10:49:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:49:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:49:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:49:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:49:49] [Server thread/INFO]: View Distance: 10
+[10:49:49] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[10:49:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:49:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:49:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:49:49] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[10:49:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:49:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:49:49] [Server thread/INFO]: Random Lighting Updates: false
+[10:49:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:49:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:49:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:49:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:49:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:49:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:49:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:49:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:49:49] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:49:49] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:49:49] [Server thread/INFO]: Structure Info Saving: true
+[10:49:49] [Server thread/INFO]: Mob Spawn Range: 4
+[10:49:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[10:49:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[10:49:49] [Server thread/INFO]: Max TNT Explosions: 100
+[10:49:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:49:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:49:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:49:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:49:49] [Server thread/INFO]: View Distance: 10
+[10:49:49] [Server thread/INFO]: Preparing start region for level 0 (Seed: 4650493821727383834)
+[10:49:49] [Server thread/INFO]: Preparing start region for level 1 (Seed: 1887070625621251189)
+[10:49:50] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[10:49:50] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[10:49:50] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[10:49:50] [Server thread/WARN]: [WorldEdit] WorldEdit has detected you are using Java 7 (based on detected version 25.0.1).
+[10:49:50] [Server thread/WARN]: [WorldEdit] WorldEdit will stop supporting Java less than version 8 in the future, due to Java 7 being EOL since April 2015. Please update your server to Java 8.
+[10:49:50] [Server thread/INFO]: [Images] Enabling Images v2.5.8
+[10:49:50] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.12.1
+[10:49:50] [Server thread/INFO]: [RaspberryJuice] Using host:port - 0.0.0.0:4711
+[10:49:50] [Server thread/INFO]: [RaspberryJuice] Using RELATIVE locations
+[10:49:50] [Server thread/INFO]: [RaspberryJuice] Using RIGHT clicks for hits
+[10:49:50] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[10:49:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:49:50] [Server thread/INFO]: Done (0.556s)! For help, type "help" or "?"
+[10:49:52] [Craft Scheduler Thread - 0/INFO]: [Images] Loaded 3 images...
+[10:49:52] [Server thread/INFO]: Plugins (3): [0;32;1mWorldEdit[0;37;1m, [0;32;1mImages[0;37;1m, [0;32;1mRaspberryJuice[m
+
+[10:50:07] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
+[10:50:07] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
+[10:50:07] [Thread-6/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60654.
+[10:50:07] [Server thread/INFO]: Hospital Security Online.[m
+
+[10:50:16] [User Authenticator #1/INFO]: UUID of player alexc2serr1 is 1b8102e9-4018-4b99-ab2b-b58d30895307
+[10:50:16] [Server thread/INFO]: Welcome alexc2serr1[m
+
+[10:50:16] [Server thread/INFO]: alexc2serr1[/127.0.0.1:60823] logged in with entity id 38 at ([world]1048.5, 12.0, -65.5)
+[10:50:46] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60654.
+[10:50:50] [Thread-6/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:50435.
+[10:50:50] [Thread-10/INFO]: [RaspberryJuice] Starting output thread!
+[10:50:50] [Thread-9/INFO]: [RaspberryJuice] Starting input thread
+[10:50:50] [Server thread/INFO]: Hospital Security Online.[m
+
+[10:52:02] [Server thread/INFO]: alexc2serr1 issued server command: /gamemode creative
+[10:52:02] [Server thread/INFO]: [alexc2serr1: Set own game mode to Creative Mode]
+[10:52:08] [Server thread/INFO]: Greetings alexc2serr1! Your role is: nurse[m
+
+[10:52:08] [Server thread/INFO]: NURSE VIEW: Bruce Wayne | SSN: ***-**-1234 | Tx: [RESTRICTED][m
+
+[10:52:13] [Server thread/INFO]: Greetings alexc2serr1! Your role is: nurse[m
+
+[10:52:13] [Server thread/INFO]: NURSE VIEW: Bruce Wayne | SSN: ***-**-1234 | Tx: [RESTRICTED][m
+
+[10:52:27] [Server thread/INFO]: Greetings alexc2serr1! Your role is: nurse[m
+
+[10:52:33] [Server thread/INFO]: NURSE VIEW: Bruce Wayne | SSN: ***-**-1234 | Tx: [RESTRICTED][m
+
+[10:52:33] [Server thread/INFO]: Greetings alexc2serr1! Your role is: nurse[m
+
+[10:52:35] [Server thread/INFO]: NURSE VIEW: Bruce Wayne | SSN: ***-**-1234 | Tx: [RESTRICTED][m
+
+[10:52:46] [Server thread/INFO]: ACCESS DENIED: alexc2serr1 not found.[m
+
+[10:53:04] [Server thread/INFO]: ACCESS DENIED: alexc2serr1 not found.[m
+
+[11:10:35] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:50435.
+[11:16:32] [Thread-6/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:56643.
+[11:16:32] [Thread-11/INFO]: [RaspberryJuice] Starting input thread
+[11:16:32] [Thread-12/INFO]: [RaspberryJuice] Starting output thread!
+[11:16:32] [Server thread/INFO]: Hospital Security Online.[m
+
+[11:16:32] [Server thread/INFO]: Type 'REGISTER' in chat to sign up![m
+
+[11:16:41] [Async Chat Thread - #0/INFO]: <alexc2serr1> REGISTER[m
+
+[11:16:42] [Server thread/INFO]: 38: Starting registration...[m
+
+[11:16:42] [Server thread/INFO]: Do you want to register as a patient? (Type 'yes' or 'no')[m
+
+[11:16:48] [Async Chat Thread - #0/INFO]: <alexc2serr1> yes[m
+
+[11:16:48] [Server thread/INFO]: Great! Let's start registration.[m
+
+[11:16:48] [Server thread/INFO]: Step 1: Type your FIRST NAME in chat[m
+
+[11:16:54] [Async Chat Thread - #0/INFO]: <alexc2serr1> Alejandro[m
+
+[11:16:54] [Server thread/INFO]: First Name: Alejandro[m
+
+[11:16:54] [Server thread/INFO]: Step 2: Type your LAST NAME[m
+
+[11:16:58] [Async Chat Thread - #0/INFO]: <alexc2serr1> Serrano[m
+
+[11:16:58] [Server thread/INFO]: Last Name: Serrano[m
+
+[11:16:58] [Server thread/INFO]: Step 3: Type your EMAIL[m
+
+[11:17:03] [Async Chat Thread - #0/INFO]: <alexc2serr1> serrano@gmail.com[m
+
+[11:17:03] [Server thread/INFO]: Email: serrano@gmail.com[m
+
+[11:17:03] [Server thread/INFO]: Step 4: Type your PASSWORD (min 4 chars)[m
+
+[11:17:08] [Async Chat Thread - #0/INFO]: <alexc2serr1> password123[m
+
+[11:17:08] [Server thread/INFO]: Password saved![m
+
+[11:17:08] [Server thread/INFO]: Finalizing registration...[m
+
+[11:17:08] [Server thread/INFO]: Registration failed. Username or email may already exist.[m
+
+[11:21:01] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:56643.
+[11:21:07] [Thread-6/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63078.
+[11:21:07] [Thread-13/INFO]: [RaspberryJuice] Starting input thread
+[11:21:07] [Thread-14/INFO]: [RaspberryJuice] Starting output thread!
+[11:21:07] [Server thread/INFO]: Hospital Security Online.[m
+
+[11:21:07] [Server thread/INFO]: Type 'REGISTER' in chat to sign up![m
+
+[11:21:12] [Async Chat Thread - #1/INFO]: <alexc2serr1> register[m
+
+[11:21:12] [Server thread/INFO]: 38: Starting registration...[m
+
+[11:21:12] [Server thread/INFO]: Do you want to register as a patient? (Type 'yes' or 'no')[m
+
+[11:21:15] [Async Chat Thread - #1/INFO]: <alexc2serr1> yes[m
+
+[11:21:16] [Server thread/INFO]: Great! Let's start registration.[m
+
+[11:21:16] [Server thread/INFO]: Step 1: Type your FIRST NAME in chat[m
+
+[11:21:19] [Async Chat Thread - #1/INFO]: <alexc2serr1> Alejandro[m
+
+[11:21:19] [Server thread/INFO]: First Name: Alejandro[m
+
+[11:21:19] [Server thread/INFO]: Step 2: Type your LAST NAME[m
+
+[11:21:22] [Async Chat Thread - #1/INFO]: <alexc2serr1> Serrano[m
+
+[11:21:22] [Server thread/INFO]: Last Name: Serrano[m
+
+[11:21:22] [Server thread/INFO]: Step 3: Type your EMAIL[m
+
+[11:21:26] [Async Chat Thread - #1/INFO]: <alexc2serr1> serrano@gmail.com[m
+
+[11:21:26] [Server thread/INFO]: Email: serrano@gmail.com[m
+
+[11:21:26] [Server thread/INFO]: Step 4: Type your PASSWORD (min 4 chars)[m
+
+[11:21:30] [Async Chat Thread - #1/INFO]: <alexc2serr1> password123[m
+
+[11:21:30] [Server thread/INFO]: Password saved![m
+
+[11:21:30] [Server thread/INFO]: Finalizing registration...[m
+
+[11:21:30] [Server thread/INFO]: Registration failed. Username or email may already exist.[m
+
+[11:30:26] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63078.
+[11:30:28] [Thread-6/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60881.
+[11:30:28] [Thread-15/INFO]: [RaspberryJuice] Starting input thread
+[11:30:28] [Thread-16/INFO]: [RaspberryJuice] Starting output thread!
+[11:30:28] [Server thread/INFO]: Hospital Security Online.[m
+
+[11:30:28] [Server thread/INFO]: Type 'REGISTER' in chat to sign up![m
+
+[11:30:33] [Async Chat Thread - #2/INFO]: <alexc2serr1> register[m
+
+[11:30:33] [Server thread/INFO]: 38: Starting registration...[m
+
+[11:30:33] [Server thread/INFO]: Do you want to register as a patient? (Type 'yes' or 'no')[m
+
+[11:30:35] [Async Chat Thread - #2/INFO]: <alexc2serr1> yes[m
+
+[11:30:35] [Server thread/INFO]: Great! Let's start registration.[m
+
+[11:30:35] [Server thread/INFO]: Step 1: Type your FIRST NAME in chat[m
+
+[11:30:38] [Async Chat Thread - #2/INFO]: <alexc2serr1> Alejandro[m
+
+[11:30:38] [Server thread/INFO]: First Name: Alejandro[m
+
+[11:30:38] [Server thread/INFO]: Step 2: Type your LAST NAME[m
+
+[11:30:40] [Async Chat Thread - #2/INFO]: <alexc2serr1> Serrano[m
+
+[11:30:40] [Server thread/INFO]: Last Name: Serrano[m
+
+[11:30:40] [Server thread/INFO]: Step 3: Type your EMAIL[m
+
+[11:30:46] [Async Chat Thread - #2/INFO]: <alexc2serr1> serrano@gmail.com[m
+
+[11:30:46] [Server thread/INFO]: Email: serrano@gmail.com[m
+
+[11:30:46] [Server thread/INFO]: Step 4: Type your PASSWORD (min 4 chars)[m
+
+[11:30:49] [Async Chat Thread - #2/INFO]: <alexc2serr1> password123[m
+
+[11:30:49] [Server thread/INFO]: Password saved![m
+
+[11:30:49] [Server thread/INFO]: Finalizing registration...[m
+
+[11:30:49] [Server thread/INFO]: Registration failed. Username or email may already exist.[m
+
+[11:40:40] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60881.
+[11:40:49] [Thread-6/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:62162.
+[11:40:49] [Thread-17/INFO]: [RaspberryJuice] Starting input thread
+[11:40:49] [Thread-18/INFO]: [RaspberryJuice] Starting output thread!
+[11:40:49] [Server thread/INFO]: Hospital Security Online.[m
+
+[11:40:49] [Server thread/INFO]: Type 'REGISTER' in chat to sign up![m
+
+[11:40:55] [Async Chat Thread - #3/INFO]: <alexc2serr1> register[m
+
+[11:40:56] [Server thread/INFO]: 38: Starting registration...[m
+
+[11:40:56] [Server thread/INFO]: Do you want to register as a patient? (Type 'yes' or 'no')[m
+
+[11:40:57] [Async Chat Thread - #3/INFO]: <alexc2serr1> yes[m
+
+[11:40:57] [Server thread/INFO]: Great! Let's start registration.[m
+
+[11:40:57] [Server thread/INFO]: Step 1: Type your FIRST NAME in chat[m
+
+[11:41:00] [Async Chat Thread - #3/INFO]: <alexc2serr1> Alejandro[m
+
+[11:41:00] [Server thread/INFO]: First Name: Alejandro[m
+
+[11:41:00] [Server thread/INFO]: Step 2: Type your LAST NAME[m
+
+[11:41:02] [Async Chat Thread - #3/INFO]: <alexc2serr1> Serrano[m
+
+[11:41:02] [Server thread/INFO]: Last Name: Serrano[m
+
+[11:41:02] [Server thread/INFO]: Step 3: Type your EMAIL[m
+
+[11:41:09] [Async Chat Thread - #3/INFO]: <alexc2serr1> serrano@gmail.com[m
+
+[11:41:09] [Server thread/INFO]: Email: serrano@gmail.com[m
+
+[11:41:09] [Server thread/INFO]: Step 4: Type your PASSWORD (min 4 chars)[m
+
+[11:41:12] [Async Chat Thread - #3/INFO]: <alexc2serr1> password123[m
+
+[11:41:12] [Server thread/INFO]: Password saved![m
+
+[11:41:12] [Server thread/INFO]: Finalizing registration...[m
+
+[11:41:18] [Server thread/INFO]: Registration failed. Username or email may already exist.[m
+
+[11:41:45] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:62162.
+[11:41:56] [Thread-6/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:62235.
+[11:41:56] [Thread-19/INFO]: [RaspberryJuice] Starting input thread
+[11:41:56] [Thread-20/INFO]: [RaspberryJuice] Starting output thread!
+[11:41:56] [Server thread/INFO]: Hospital Security Online.[m
+
+[11:41:56] [Server thread/INFO]: Type 'REGISTER' in chat to sign up![m
+
+[11:42:13] [Async Chat Thread - #4/INFO]: <alexc2serr1> register[m
+
+[11:42:14] [Server thread/INFO]: 38: Starting registration...[m
+
+[11:42:14] [Server thread/INFO]: Do you want to register as a patient? (Type 'yes' or 'no')[m
+
+[11:42:20] [Async Chat Thread - #4/INFO]: <alexc2serr1> yes[m
+
+[11:42:20] [Server thread/INFO]: Great! Let's start registration.[m
+
+[11:42:20] [Server thread/INFO]: Step 1: Type your FIRST NAME in chat[m
+
+[11:42:23] [Async Chat Thread - #4/INFO]: <alexc2serr1> Alejandro[m
+
+[11:42:23] [Server thread/INFO]: First Name: Alejandro[m
+
+[11:42:23] [Server thread/INFO]: Step 2: Type your LAST NAME[m
+
+[11:42:25] [Async Chat Thread - #4/INFO]: <alexc2serr1> Serrano[m
+
+[11:42:25] [Server thread/INFO]: Last Name: Serrano[m
+
+[11:42:25] [Server thread/INFO]: Step 3: Type your EMAIL[m
+
+[11:42:29] [Async Chat Thread - #4/INFO]: <alexc2serr1> serrano@gmail.com[m
+
+[11:42:29] [Server thread/INFO]: Email: serrano@gmail.com[m
+
+[11:42:29] [Server thread/INFO]: Step 4: Type your PASSWORD (min 4 chars)[m
+
+[11:42:33] [Async Chat Thread - #4/INFO]: <alexc2serr1> password123[m
+
+[11:42:33] [Server thread/INFO]: Password saved![m
+
+[11:42:33] [Server thread/INFO]: Finalizing registration...[m
+
+[11:42:33] [Server thread/INFO]: === REGISTRATION COMPLETE ===[m
+
+[11:42:33] [Server thread/INFO]: Welcome Alejandro![m
+
+[11:42:33] [Server thread/INFO]: Hit the terminal again to login![m
+
+[11:42:38] [Server thread/INFO]: User 'alexc2serr1' not registered.[m
+
+[11:42:38] [Server thread/INFO]: Type 'REGISTER' in chat to sign up![m
+
+[11:44:02] [User Authenticator #2/INFO]: UUID of player _ToMiKYu_ is 7a39e013-f3d7-4749-84ac-a655eb1e4cdb
+[11:44:02] [Server thread/INFO]: Welcome _ToMiKYu_[m
+
+[11:44:02] [Server thread/INFO]: _ToMiKYu_[/[0:0:0:0:0:0:0:1]:62366] logged in with entity id 7420 at ([world]1063.5, 12.0, -65.5)
+[11:44:16] [Server thread/INFO]: alexc2serr1 issued server command: /gamerule peaceful
+[11:44:16] [Server thread/INFO]: [alexc2serr1: No game rule called 'peaceful' is available]
+[11:44:22] [Server thread/INFO]: alexc2serr1 issued server command: /difficulty peaceful
+[11:44:22] [Server thread/INFO]: [alexc2serr1: Set game difficulty to Peaceful]
+[11:44:37] [Server thread/INFO]: alexc2serr1 issued server command: /op _ToMiKYu_
+[11:44:37] [Server thread/INFO]: [alexc2serr1: Opped _ToMiKYu_]
+[11:44:44] [Server thread/INFO]: _ToMiKYu_ issued server command: /gamemode creative
+[11:44:44] [Server thread/INFO]: [_ToMiKYu_: Set own game mode to Creative Mode]
+[11:45:02] [Server thread/INFO]: User 'alexc2serr1' not registered.[m
+
+[11:45:02] [Server thread/INFO]: Type 'REGISTER' in chat to sign up![m
+
+[11:46:33] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:62235.
+[11:48:05] [Server thread/INFO]: _ToMiKYu_ issued server command: //wand
+[11:48:40] [Server thread/INFO]: _ToMiKYu_ issued server command: //put quartz
+[11:48:47] [Server thread/INFO]: _ToMiKYu_ issued server command: //put quarz
+[11:49:12] [Server thread/INFO]: _ToMiKYu_ issued server command: //put Block_of_Quartz
+[11:51:03] [Thread-6/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59798.
+[11:51:03] [Thread-22/INFO]: [RaspberryJuice] Starting output thread!
+[11:51:03] [Thread-21/INFO]: [RaspberryJuice] Starting input thread
+[11:51:03] [Server thread/INFO]: Hospital Security Online.[m
+
+[11:51:03] [Server thread/INFO]: Type 'REGISTER' in chat to sign up![m
+
+[11:51:10] [Async Chat Thread - #5/INFO]: <alexc2serr1> REGISTER[m
+
+[11:51:10] [Server thread/INFO]: alexc2serr1: Starting registration...[m
+
+[11:51:10] [Server thread/INFO]: Do you want to register as a patient? (Type 'yes' or 'no')[m
+
+[11:51:15] [Async Chat Thread - #5/INFO]: <alexc2serr1> yes[m
+
+[11:51:15] [Server thread/INFO]: Great! Let's start registration.[m
+
+[11:51:15] [Server thread/INFO]: Step 1: Type your FIRST NAME in chat[m
+
+[11:51:28] [Async Chat Thread - #5/INFO]: <alexc2serr1> Alejandro[m
+
+[11:51:28] [Server thread/INFO]: First Name: Alejandro[m
+
+[11:51:28] [Server thread/INFO]: Step 2: Type your LAST NAME[m
+
+[11:51:30] [Async Chat Thread - #5/INFO]: <alexc2serr1> Serrano[m
+
+[11:51:31] [Server thread/INFO]: Last Name: Serrano[m
+
+[11:51:31] [Server thread/INFO]: Step 3: Type your EMAIL[m
+
+[11:51:34] [Async Chat Thread - #5/INFO]: <alexc2serr1> serrano@gmail.co[m
+
+[11:51:35] [Server thread/INFO]: Email: serrano@gmail.co[m
+
+[11:51:35] [Server thread/INFO]: Step 4: Type your PASSWORD (min 4 chars)[m
+
+[11:51:41] [Async Chat Thread - #5/INFO]: <alexc2serr1> password123[m
+
+[11:51:41] [Server thread/INFO]: Password saved![m
+
+[11:51:41] [Server thread/INFO]: Finalizing registration...[m
+
+[11:51:46] [Server thread/INFO]: Registration failed. Username or email may already exist.[m
+
+[11:51:47] [Server thread/INFO]: User 'alexc2serr1' not registered.[m
+
+[11:51:47] [Server thread/INFO]: Type 'REGISTER' in chat to sign up![m
+
+[11:51:54] [Server thread/INFO]: _ToMiKYu_ issued server command: //help
+[11:52:06] [Server thread/INFO]: User 'alexc2serr1' not registered.[m
+
+[11:52:06] [Server thread/INFO]: Type 'REGISTER' in chat to sign up![m
+
+[11:52:10] [Async Chat Thread - #5/INFO]: <alexc2serr1> register[m
+
+[11:52:10] [Server thread/INFO]: alexc2serr1: Starting registration...[m
+
+[11:52:10] [Server thread/INFO]: Do you want to register as a patient? (Type 'yes' or 'no')[m
+
+[11:52:12] [Async Chat Thread - #5/INFO]: <alexc2serr1> yes[m
+
+[11:52:12] [Server thread/INFO]: Great! Let's start registration.[m
+
+[11:52:12] [Server thread/INFO]: Step 1: Type your FIRST NAME in chat[m
+
+[11:52:15] [Async Chat Thread - #5/INFO]: <alexc2serr1> alejandro[m
+
+[11:52:15] [Server thread/INFO]: First Name: alejandro[m
+
+[11:52:15] [Server thread/INFO]: Step 2: Type your LAST NAME[m
+
+[11:52:17] [Async Chat Thread - #5/INFO]: <alexc2serr1> serrano[m
+
+[11:52:17] [Server thread/INFO]: Last Name: serrano[m
+
+[11:52:17] [Server thread/INFO]: Step 3: Type your EMAIL[m
+
+[11:52:21] [Async Chat Thread - #5/INFO]: <alexc2serr1> serrano@gmail.com[m
+
+[11:52:21] [Server thread/INFO]: Email: serrano@gmail.com[m
+
+[11:52:21] [Server thread/INFO]: Step 4: Type your PASSWORD (min 4 chars)[m
+
+[11:52:23] [Async Chat Thread - #5/INFO]: <alexc2serr1> password123[m
+
+[11:52:24] [Server thread/INFO]: Password saved![m
+
+[11:52:24] [Server thread/INFO]: Finalizing registration...[m
+
+[11:52:24] [Server thread/INFO]: === REGISTRATION COMPLETE ===[m
+
+[11:52:24] [Server thread/INFO]: Welcome alejandro![m
+
+[11:52:24] [Server thread/INFO]: Hit the terminal again to login![m
+
+[11:52:24] [Server thread/INFO]: _ToMiKYu_ issued server command: //help wand 2
+[11:52:26] [Server thread/INFO]: Greetings alexc2serr1! Role: patient[m
+
+[11:52:26] [Server thread/INFO]: ACCESS DENIED: You can only view your own medical records.[m
+
+[11:52:31] [Server thread/INFO]: Greetings alexc2serr1! Role: patient[m
+
+[11:52:31] [Server thread/INFO]: ACCESS DENIED: You can only view your own medical records.[m
+
+[11:52:36] [Server thread/INFO]: Greetings alexc2serr1! Role: patient[m
+
+[11:52:36] [Server thread/INFO]: ACCESS DENIED: You can only view your own medical records.[m
+
+[11:52:51] [Server thread/INFO]: Greetings alexc2serr1! Role: patient[m
+
+[11:52:51] [Server thread/INFO]: ACCESS DENIED: You can only view your own medical records.[m
+
+[12:00:52] [Server thread/INFO]: User '_ToMiKYu_' not registered.[m
+
+[12:00:52] [Server thread/INFO]: Type 'REGISTER' in chat to sign up![m
+
+[12:01:01] [Async Chat Thread - #6/INFO]: <_ToMiKYu_> REGISTER[m
+
+[12:01:01] [Server thread/INFO]: _ToMiKYu_: Starting registration...[m
+
+[12:01:01] [Server thread/INFO]: Do you want to register as a patient? (Type 'yes' or 'no')[m
+
+[12:03:21] [Async Chat Thread - #7/INFO]: <alexc2serr1> se ha caido discord?[m
+
+[12:03:24] [Async Chat Thread - #7/INFO]: <alexc2serr1> o soy yo[m
+
+[12:03:26] [Async Chat Thread - #7/INFO]: <alexc2serr1> ?[m
+
+[12:03:29] [Async Chat Thread - #7/INFO]: <_ToMiKYu_> a ti, parece[m
+
+[12:03:29] [Server thread/INFO]: Registration cancelled.[m
+
+[12:03:33] [Async Chat Thread - #7/INFO]: <alexc2serr1> y[m
+
+[12:03:35] [Async Chat Thread - #7/INFO]: <alexc2serr1> uy[m
+
+[12:04:15] [Async Chat Thread - #7/INFO]: <_ToMiKYu_> no[m
+
+[12:04:23] [Async Chat Thread - #7/INFO]: <_ToMiKYu_> REGISTER[m
+
+[12:04:23] [Server thread/INFO]: _ToMiKYu_: Starting registration...[m
+
+[12:04:23] [Server thread/INFO]: Do you want to register as a patient? (Type 'yes' or 'no')[m
+
+[12:04:33] [Async Chat Thread - #7/INFO]: <_ToMiKYu_> yes[m
+
+[12:04:33] [Server thread/INFO]: Great! Let's start registration.[m
+
+[12:04:33] [Server thread/INFO]: Step 1: Type your FIRST NAME in chat[m
+
+[12:04:38] [Async Chat Thread - #7/INFO]: <_ToMiKYu_> Tomas[m
+
+[12:04:39] [Server thread/INFO]: First Name: Tomas[m
+
+[12:04:39] [Server thread/INFO]: Step 2: Type your LAST NAME[m
+
+[12:04:44] [Async Chat Thread - #7/INFO]: <_ToMiKYu_> de Juan[m
+
+[12:04:44] [Server thread/INFO]: Last Name: de Juan[m
+
+[12:04:44] [Server thread/INFO]: Step 3: Type your EMAIL[m
+
+[12:05:10] [Async Chat Thread - #7/INFO]: <_ToMiKYu_> minecraftTomikyu@hotmail.com[m
+
+[12:05:11] [Server thread/INFO]: Email: minecraftTomikyu@hotmail.com[m
+
+[12:05:11] [Server thread/INFO]: Step 4: Type your PASSWORD (min 4 chars)[m
+
+[12:05:19] [Async Chat Thread - #7/INFO]: <_ToMiKYu_> password123[m
+
+[12:05:19] [Server thread/INFO]: Password saved![m
+
+[12:05:19] [Server thread/INFO]: Finalizing registration...[m
+
+[12:05:19] [Server thread/INFO]: === REGISTRATION COMPLETE ===[m
+
+[12:05:19] [Server thread/INFO]: Welcome Tomas![m
+
+[12:05:19] [Server thread/INFO]: Hit the terminal again to login![m
+
+[12:09:32] [Server thread/INFO]: Greetings alexc2serr1! Role: patient[m
+
+[12:09:32] [Server thread/INFO]: ACCESS DENIED: You can only view your own medical records.[m
+
+[12:10:00] [Server thread/INFO]: Greetings alexc2serr1! Role: patient[m
+
+[12:10:00] [Server thread/INFO]: ACCESS DENIED: You can only view your own medical records.[m
+
+[12:10:06] [Server thread/INFO]: _ToMiKYu_ lost connection: Disconnected
+[12:10:06] [Server thread/INFO]: _ToMiKYu_ left the game
+[12:10:09] [User Authenticator #3/INFO]: UUID of player _ToMiKYu_ is 7a39e013-f3d7-4749-84ac-a655eb1e4cdb
+[12:10:09] [Server thread/INFO]: Welcome _ToMiKYu_[m
+
+[12:10:09] [Server thread/INFO]: _ToMiKYu_[/[0:0:0:0:0:0:0:1]:56470] logged in with entity id 655705 at ([world]1132.4184588712824, 14.0, -11.802852927455975)
+[12:10:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59798.
+[12:10:18] [Thread-6/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:50520.
+[12:10:18] [Thread-23/INFO]: [RaspberryJuice] Starting input thread
+[12:10:18] [Thread-24/INFO]: [RaspberryJuice] Starting output thread!
+[12:10:18] [Server thread/INFO]: Hospital Security Online.[m
+
+[12:10:18] [Server thread/INFO]: Type 'REGISTER' in chat to sign up![m
+
+[12:10:28] [Server thread/INFO]: Greetings alexc2serr1! Role: patient[m
+
+[12:10:28] [Server thread/INFO]: ACCESS DENIED: You can only view your own medical records.[m
+
+[12:12:26] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:50520.
+[12:15:59] [Server thread/INFO]: alexc2serr1 lost connection: Internal Exception: java.net.SocketException: Connection reset
+[12:15:59] [Server thread/INFO]: alexc2serr1 left the game
+[12:18:28] [Server thread/INFO]: _ToMiKYu_ has made the advancement [Suit Up]
+[12:22:54] [Server thread/INFO]: _ToMiKYu_ has made the advancement [Bring Home the Beacon]
+[12:29:59] [Server thread/INFO]: _ToMiKYu_ issued server command: //help
+[12:30:15] [Server thread/INFO]: _ToMiKYu_ issued server command: //put help
+[12:30:34] [Server thread/INFO]: _ToMiKYu_ issued server command: /help put
+[13:02:53] [Server thread/INFO]: _ToMiKYu_ issued server command: //wand
+[13:03:11] [Server thread/INFO]: _ToMiKYu_ issued server command: /replace quartz white_concrete
+[13:03:20] [Server thread/INFO]: _ToMiKYu_ issued server command: //replace quartz white_concrete
+[13:03:29] [Server thread/INFO]: _ToMiKYu_ issued server command: //undo
+[13:08:15] [Server thread/INFO]: _ToMiKYu_ issued server command: /give Tomikyu barrier
+[13:08:15] [Server thread/INFO]: [_ToMiKYu_: Player 'Tomikyu' cannot be found]
+[13:08:33] [Server thread/INFO]: _ToMiKYu_ issued server command: /give _ToMiKYu_ barrier
+[13:08:33] [Server thread/INFO]: [_ToMiKYu_: Given [Barrier] * 1 to _ToMiKYu_]
+[13:14:24] [Server thread/INFO]: Saving...
+[13:14:24] [Server thread/INFO]: Saved the world

@@ -7,6 +7,12 @@ from datetime import datetime
 SOURCE_DB = 'hospital.db'
 BACKUP_DIR = 'backups'
 
+def authorize_etl(username):
+    from hospital_middleware import get_user_credentials
+    ctx = get_user_credentials(username)
+    return ctx and ctx['role_name'] == 'etl_service'
+
+
 def perform_backup():
     # 1. Ensure Backup Directory Exists
     if not os.path.exists(BACKUP_DIR):
@@ -38,4 +44,8 @@ def perform_backup():
         if source_conn: source_conn.close()
 
 if __name__ == "__main__":
-    perform_backup()
+    username = input("ETL username: ")
+
+    if not authorize_etl(username):
+        print("ACCESS DENIED: Only etl_service may perform backups.")
+        exit()

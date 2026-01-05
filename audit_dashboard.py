@@ -8,10 +8,11 @@ def get_db():
     conn.row_factory = sqlite3.Row
     return conn
 
-def authorize_etl(username):
+def authorize_audit(username):
     from hospital_middleware import get_user_credentials
     ctx = get_user_credentials(username)
-    return ctx and ctx['role_name'] == 'etl_service'
+    return ctx and ctx['role_name'] in ('etl_service', 'auditor')
+
 
 
 def run_dashboard():
@@ -84,9 +85,10 @@ def run_dashboard():
     conn.close()
 
 if __name__ == "__main__":
-    username = input("ETL username: ")
-if not authorize_etl(username):
-    print("ACCESS DENIED: Only etl_service may run dashboard.")
-    exit()
+    username = input("Audit username: ")
+
+    if not authorize_audit(username):
+        print("ACCESS DENIED: Only auditor or etl_service may run dashboard.")
+        exit()
 
     run_dashboard()

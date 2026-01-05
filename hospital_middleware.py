@@ -17,6 +17,17 @@ TERMINAL_Z = 48
 # DEFAULT DATA
 DEFAULT_DOB = "2004-05-01"
 
+# DOOR COORDS
+DOOR_X = 106
+DOOR_Y = 11
+DOOR_Z = 38
+
+DOOR2_X = 106
+DOOR2_Y = 11
+DOOR2_Z = 37
+
+
+
 
 # Attempt to load Minecraft library
 try:
@@ -544,6 +555,30 @@ def run_minecraft_mode():
                         mc.postToChat(f"User '{player_name}' not registered.")
                         mc.postToChat("Type 'REGISTER' in chat to sign up!")
                         print(f"[!] Unregistered player: {player_name}")
+                
+                # ---- PHYSICAL DOOR (MAC ZONE) ----
+                # ---- PHYSICAL DOOR (MAC ZONE) ----
+                if (
+                    (hit.pos.x == DOOR_X  and hit.pos.y == DOOR_Y  and hit.pos.z == DOOR_Z) or
+                    (hit.pos.x == DOOR2_X and hit.pos.y == DOOR2_Y and hit.pos.z == DOOR2_Z)
+                ):
+
+                    player_name = mc.entity.getName(hit.entityId)
+                    user_ctx = get_user_credentials(player_name)
+
+                    if not user_ctx:
+                        mc.postToChat("🚫 You must be registered to enter this ward.")
+                        continue
+
+                    if not enforce_physical_door_access(mc, user_ctx, hit.pos):
+                        log_audit(user_ctx['user_id'], player_name, "PHYSICAL_DENY", "WardDoor", "Blocked from ward")
+                        continue
+
+
+                    log_audit(user_ctx['user_id'], player_name, "PHYSICAL_GRANT", "WardDoor", "Entered ward")
+                    continue
+
+
             
             time.sleep(0.2)
     except Exception as e:
@@ -614,6 +649,38 @@ def run_console_simulation_mode():
         else:
             print(f"[!] AUTH FAILED: Invalid Password.")
             log_audit(user_context['user_id'], username_input, "LOGIN_FAIL", "Users", "Invalid password")
+
+# ==========================================
+# DOOR SECTION
+# ==========================================
+
+
+def enforce_physical_door_access(mc, user_ctx, pos):
+    # Normalize to bottom half of the door
+    base_y = pos.y
+    block = mc.getBlockWithData(pos.x, pos.y, pos.z)
+
+    # If player clicked top half, move down one block
+    if block.data & 0x8:
+        base_y = pos.y - 1
+
+    if user_ctx['role_name'] != 'doctor':
+        mc.postToChat("🚫 ACCESS DENIED: Only doctors may enter this ward.")
+        time.sleep(0.12)
+
+        bottom = mc.getBlockWithData(pos.x, base_y, pos.z)
+        top    = mc.getBlockWithData(pos.x, base_y + 1, pos.z)
+
+        closed_bottom = bottom.data & ~0x4
+        closed_top    = top.data & ~0x4
+
+        mc.setBlock(pos.x, base_y, pos.z, bottom.id, closed_bottom)
+        mc.setBlock(pos.x, base_y + 1, pos.z, top.id, closed_top)
+        return False
+
+    mc.postToChat("✅ ACCESS GRANTED: Welcome Doctor.")
+    return True
+
 
 # ==========================================
 # MAIN EXECUTION MENU
